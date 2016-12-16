@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="RibbonLoad" xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="CGrabberTabId" getVisible="CGrabberTabGetVisible" label="CGrabber">
+        <group id="grpSettings"
+               label="CGrabber menus">
+          <button id="btnCGrabberRuleSettings"
+                  size="large"
+                  label="Grabber Rulesets"
+                  imageMso="AddOnsMenu"
+                  screentip="Grabber Rulesets"
+                  supertip="Manage rulesets for grabbing email address and add to contacts."
+                  onAction="CGrabberRuleSettingsButtonClick" />
+          <button id="btnCGrabberAbout"
+                  size="large"
+                  label="About CGrabber"
+                  imageMso="CreateAdvancedObjectsMenu"
+                  screentip="About CGrabber"
+                  supertip="Know few things about CGrabber - Contact Grabber."
+                  onAction="CGrabberAboutButtonClick" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
